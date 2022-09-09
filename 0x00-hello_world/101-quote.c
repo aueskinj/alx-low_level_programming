@@ -2,15 +2,14 @@
 #include<unistd.h>
 
 /*
- * main - entry point 
- *
+ * main - main block *
  * Description: print Dora's quote
- *
- * Return: Always 1 (success)
+ *Return: Always 1 (success)
  */
 int main(void)
 {
-	write(2, "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n", 59);
+	char c[]= " 'and that piece of art i useful\n' -Dora Korpar, 2015-10-19\n";
+	write(2, ch, sizeof(ch));
 	return(1);
 }
 
