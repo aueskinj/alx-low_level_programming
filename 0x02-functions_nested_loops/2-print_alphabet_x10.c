@@ -1,22 +1,25 @@
 #include<stdio.h>
-/** Write a function that prints 10 times the alphabet, 
- * in lowercase, followed by a new line
+#include <unistd.h>
+/**
+ * print_alphabet_x10 - prints alphabet 10 times
+ * Return:void
  */
-void print_alphabet_x10(void);
-int main()
-{
-    int x=0;
-    while (x<9)
-    {
-        print_alphabet_x10();
-        printf("\n");
-        x++;
-        return 0;
-    } 
-}
+
 void print_alphabet_x10(void)
 {
-    char c;
-    for (c = 'a'; c <= 'z'; ++c)
-        printf("%c ", c);
+	char c;
+	int i = 0;
+
+	while (i < 10)
+	{
+		c = 'a';
+		while (c <= 'z')
+		{
+			_putchar(c);
+			c++;
+		}
+		_putchar('\n');
+		i++;
+	}
+
 }
