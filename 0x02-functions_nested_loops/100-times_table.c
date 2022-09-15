@@ -1,4 +1,4 @@
-#include<stdio.h>
+#include"main.h"
 #include <unistd.h>
 /**
  * print_times_table - prints times table

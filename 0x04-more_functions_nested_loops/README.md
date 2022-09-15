@@ -1,6 +1,1 @@
-0. isupper. Write a function that checks for uppercase character.
-    Prototype: int _isupper(int c);
-    Returns 1 if c is uppercase
-    Returns 0 otherwise
-    filename: 0-isupper.c
-1. 
+My 0x04-more_functions_nested_loops Task 
